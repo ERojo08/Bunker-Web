@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BunkerMx</title>
+    <link rel="icon" href="Assets/BFR5.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+            $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Assets/Recurso%204.svg">
+        </div>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#¿Quienes Somos?">¿Quiénes Somos?</a></li>
+        <li><a href="#¿Que hacemos?">¿Qué hacemos?</a></li>
+        <li><a href="#Casos de éxito">Casos de éxito</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section id="Home" class="sec1"></section>
+    <section id="¿Quienes Somos?" class="sec2">
+        <h3>¿Quienes Somos?</h3>
+        </section>
+    <section id="¿Que hacemos?" class="sec3">
+        <h3>¿Que Hacemos?</h3>
+        </section>
+    <section id="Casos de éxito" class="sec4">
+        <h3>Casos de éxito</h3>
+        </section>
+    <section id="Contacto" class="sec5">
+        <h3>Contacto</h3>
+    </section>
+</body>
+</html>
